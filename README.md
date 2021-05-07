@@ -1,8 +1,8 @@
 # Project Overview
 
-## Reaction
+## Reaction (AKA Sloth JS, title in progress)
 
-You'll get hooked... ![sloth pic](https://unsplash.com/photos/qbsdrZZ0M4c "photo by Sophia Müller").
+You'll get hooked... [see link for site theme](https://unsplash.com/photos/qbsdrZZ0M4c).
 
 ## Project Description
 

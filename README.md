@@ -25,30 +25,30 @@ https://whimsical.com/reaction-components-6vzEhHEnF59vAP7NCV5XWh
         {
             "id": "recxoyncDHSUgXQ3W",
             "fields": {
-                "Description": "Function, Import, Return, Export; if you want to create a functional component",
-                "Name": "F.I.R.E.",
-                "Price": 25,
-                "Category": "concept"
+                "description": "Function, Import, Return, Export; if you want to create a functional component",
+                "price": 25,
+                "name": "F.I.R.E.",
+                "category": "concept"
             },
             "createdTime": "2021-05-06T18:40:05.000Z"
         },
         {
             "id": "recI9mSZ2IOQUkYwY",
             "fields": {
-                "Description": "used to pass properties to components",
-                "Name": "props",
-                "Price": 14,
-                "Category": "definition"
+                "description": "used to pass properties to components",
+                "price": 14,
+                "name": "props",
+                "category": "definition"
             },
             "createdTime": "2021-05-06T18:40:05.000Z"
         },
         {
             "id": "recQ0FTmn1w4oW3r9",
             "fields": {
-                "Description": "syntax used to write HTML in JavaScript",
-                "Name": "JSX",
-                "Price": 12,
-                "Category": "definition"
+                "description": "syntax used to write HTML in JavaScript",
+                "price": 12,
+                "name": "JSX",
+                "category": "definition"
             },
             "createdTime": "2021-05-06T18:40:05.000Z"
         }
@@ -61,9 +61,9 @@ https://whimsical.com/reaction-components-6vzEhHEnF59vAP7NCV5XWh
 
 #### MVP 
 
--At least 6 sperate, rendered components
+- At least 6 sperate, rendered components
 - Use Axios with external API(Airtable) to get product data 
-- Render product data on page
+- Render product "card" data on page
 - Implement a form for user to submit suggestions for new products
 - Use Axios to Post this new data to API, and render on page
 - Links/clickable icons/buttons on homepage and in Nav 
@@ -108,8 +108,9 @@ This schedule will be used to keep track of your progress throughout the week an
 | CSS/Styling form page| H |  3hrs | :---: | :---: |
 | Get/Post Data | H |  4hrs | :---: | :---: |
 | Improve site/code structure | H |  3hrs | :---: | :---: |
+
 | Total | H | 32.5hrs|  |  |
-Proposal Nav and Routing
+
 ## SWOT Analysis
 
 ### Strengths:

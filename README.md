@@ -1,12 +1,12 @@
 # Project Overview
 
-## Reaction (AKA Sloth JS, title in progress)
+## Sloth JS
 
 You'll get hooked... [see link for site theme](https://unsplash.com/photos/qbsdrZZ0M4c).
 
 ## Project Description
 
-Reaction (AKA Sloth JS, title in progress) mimics an e-commerce/shopping site that sells a unique product: React components, JSX, hooks, props, etc. It is built with React and Airtable. The user will have access to the current catalog of items available, including the ability to view each item's description/definition, reviews and price. User will also be able to contribute their own product suggestions via a form as well as view previous suggestions.
+Sloth JS mimics an e-commerce/shopping site that sells a unique product: React components, JSX, hooks, props, etc. It is built with React and Airtable. The user will have access to the current catalog of items available, including the ability to view each item's description/definition, reviews and price. User will also be able to contribute their own product suggestions via a form as well as view previous suggestions.
 
 ## Wireframes
 

@@ -2,11 +2,11 @@
 
 ## Reaction
 
-You'll get hooked...
+You'll get hooked... ![sloth pic](https://unsplash.com/photos/qbsdrZZ0M4c "photo by Sophia Müller").
 
 ## Project Description
 
-Reaktion mimics an e-commerce/shopping site that sells a unique product: React components, JSX, hooks, props, etc. It is built with React and Airtable. The user will have access to the current catalog of items available, including the ability to view each item's description/definition, reviews and price. User will also be able to contribute their own product suggestions via a form as well as view previous suggestions.
+Reaction (AKA Sloth JS, title in progress) mimics an e-commerce/shopping site that sells a unique product: React components, JSX, hooks, props, etc. It is built with React and Airtable. The user will have access to the current catalog of items available, including the ability to view each item's description/definition, reviews and price. User will also be able to contribute their own product suggestions via a form as well as view previous suggestions.
 
 ## Wireframes
 

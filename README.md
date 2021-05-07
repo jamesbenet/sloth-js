@@ -75,7 +75,7 @@ https://whimsical.com/reaction-components-6vzEhHEnF59vAP7NCV5XWh
 - Ability to like/favorite products
 - collaborate for improved UI
 - searchbar for products
-- add links to products to more improduct info
+- add more info to site and products(links to more resources, for example)
 
 ## Project Schedule
 
@@ -109,7 +109,7 @@ This schedule will be used to keep track of your progress throughout the week an
 | Get/Post Data | H |  4hrs | :---: | :---: |
 | Improve site/code structure | H |  3hrs | :---: | :---: |
 
-| Total | H | 32.5hrs|  |  |
+| Total |  | 32.5hrs|  |  |
 
 ## SWOT Analysis
 

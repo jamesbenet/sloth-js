@@ -2,7 +2,7 @@
 
 ## Sloth JS
 
-You'll get hooked... [see link for site theme](https://unsplash.com/photos/qbsdrZZ0M4c).
+You'll get hooked... [see link for site theme](https://i.imgur.com/D8Bz3HO.jpg)
 
 ## Project Description
 

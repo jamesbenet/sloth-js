@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sloth JS
 
-## Available Scripts
+You'll get hooked... ![ a sloth, photo by Sophia Muller](images/sophia-muller-5t9T6hQ2Cn0-unsplash.jpg)
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+Sloth JS mimics an e-commerce/shopping site that sells a unique product: React components, JSX, hooks, props, etc. It is built with React and Airtable. The user will have access to the current catalog of items available, including the ability to view each item's description/definition, reviews and price. User will also be able to contribute their own product suggestions via a form as well as view previous suggestions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Wireframes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Homepage contains a header with site navigation, including links to: About section and Form for user(customer) suggestions. Page body consists of listings for several of the products, and a few buttons for a)bestsellers b)new items c) view all. Form page consist of form and previous form submissions listed below it.
 
-### `npm test`
+https://whimsical.com/reaction-3UYo7hbDYjRjk3sTMhe5VC
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Component Hierarchy
+https://whimsical.com/reaction-components-6vzEhHEnF59vAP7NCV5XWh
 
-### `npm run build`
+## API and Data Sample
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```json
+{
+    "records": [
+        {
+            "id": "recxoyncDHSUgXQ3W",
+            "fields": {
+                "description": "Function, Import, Return, Export; if you want to create a functional component",
+                "price": 25,
+                "name": "F.I.R.E.",
+                "category": "concept"
+            },
+            "createdTime": "2021-05-06T18:40:05.000Z"
+        },
+        {
+            "id": "recI9mSZ2IOQUkYwY",
+            "fields": {
+                "description": "used to pass properties to components",
+                "price": 14,
+                "name": "props",
+                "category": "definition"
+            },
+            "createdTime": "2021-05-06T18:40:05.000Z"
+        },
+        {
+            "id": "recQ0FTmn1w4oW3r9",
+            "fields": {
+                "description": "syntax used to write HTML in JavaScript",
+                "price": 12,
+                "name": "JSX",
+                "category": "definition"
+            },
+            "createdTime": "2021-05-06T18:40:05.000Z"
+        }
+    ],
+    "offset": "recQ0FTmn1w4oW3r9"
+}
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### MVP/PostMVP
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### MVP 
 
-### `npm run eject`
+- At least 6 sperate, rendered components
+- Use Axios with external API(Airtable) to get product data 
+- Render product "card" data on page
+- Implement a form for user to submit suggestions for new products
+- Use Axios to Post this new data to API, and render on page
+- Links/clickable icons/buttons on homepage and in Nav 
+- Use React Router for route structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### PostMVP  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Add a shopping cart
+- Ability to like/favorite products
+- collaborate for improved UI
+- searchbar for products
+- add more info to site and products(links to more resources, for example)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Project Schedule
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
-## Learn More
+|  Day | Deliverable | Status
+|---|---| ---|
+|May 6| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|May 7| Project Approval | Incomplete
+|May 8-9| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|May 10| Pseudocode / actual code | Incomplete
+|May 11-12| Initial Clickable Model  | Incomplete
+|May 13| MVP | Incomplete
+|May 14| Presentations | Incomplete
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Timeframes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Airtable setup | H | .5hrs|  |  |
+| Proposal| H | 3hrs|  |  |
+| Nav and Routing| H | 3hrs|  |  |
+| Buttons/Icons| H | 3hrs|  |  |
+| Foooter links/content| H | 2hrs|  |  |
+| Building Form | H | 1hr|  |  |
+| Working with API | H | 3hrs|  |  |
+| Create Product Data | H | 3hrs | :---: | :---: |
+| Tweak Product Data | H | 1hr | :---: | :---: |
+| CSS/Styling homepage| H |  3hrs | :---: | :---: |
+| CSS/Styling form page| H |  3hrs | :---: | :---: |
+| Get/Post Data | H |  4hrs | :---: | :---: |
+| Improve site/code structure | H |  3hrs | :---: | :---: |
 
-### Code Splitting
+| Total |  | 32.5hrs|  |  |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## SWOT Analysis
 
-### Analyzing the Bundle Size
+### Strengths:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I have one a good amount of research on the functionality of what I consider to be good e-commerce sites, and the appearance/functionality that I want to mimic is all possible with previous course material. 
 
-### Making a Progressive Web App
+### Weaknesses: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I still have trouble fully comprehending some of the material we've covered so I will want to identify and address any "knowledge gaps" early on as they relate to what I'm trying to do so that as soon as I build the basic structure I can focus on any presumed difficulties in implementation I might have. 
 
-### Advanced Configuration
+### Opportunities: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+One of the reasons that I chose this project/priduct is that it allows me to catalog the key terms and concepts we've learned over the past 2 weeks. It also allows me to get some experience building a job-ready skill: implementing a responsive e-commerce site. 
 
-### Deployment
+### Threats: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Time management. Each day I plan to create a list of do's and dont's (things that went well/bad) so that I can address them in a timely fashion. Some days this list may be created by mid-day! (We all reserved the right to start our day over at anytime, right?)

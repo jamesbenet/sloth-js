@@ -12,6 +12,34 @@
   top: 0;
 }
 
+/* My CSS */
+.nav {
+  
+  position: absolute;
+  
+  left: 100px;
+  top: 0;
+}
+
+.nav a {
+  background-color: red;
+  color: rgb(29, 116, 48);
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  background-color: #555;
+}
+
+.nav a:active {
+  background-color: black;
+}
+
+.nav a:visited {
+  background-color: #ccc;
+}
 
 
 .App-logo {

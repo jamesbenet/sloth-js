@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Route } from "react-router-dom";
-import Product from "./components/Product.jsx"
+import Product from "./components/Product"
 import Form from "./components/Form";
 import Nav from "./components/Nav";
 import { baseURL, config } from "./services";
@@ -13,33 +13,30 @@ function App() {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      // const url = "https://api.airtable.com/v0/appzGBcPBzpuGidxc/slothJS?maxRecords=3&view=Grid%20view";
+      
       const resp = await axios.get(baseURL, config);
-      // console.log(resp.data);
-      console.log(resp.data.records);
       setProducts(resp.data.records);
     };
     fetchProducts();
-    console.log(products);
-    // console.log({products.fields});
+    console.log(products[0]);
   }, [toggleFetch]);
-  console.log(products);
+
   return (
     <div className="App">
-     <header>
-     <Nav></Nav></header>
+     
+     <Nav classname="nav" />
       <Route exact path="/">
-       {/* {product.fields.name} */}
-        <main>{products.map((product) => (
+        <main>
+          {products.map((product) => (
           <Product product={product} setToggleFetch={setToggleFetch} />
-        ))}
+          ))}
         </main>
       </Route>
-      <div>
-      <Route path="/new">
-        <Form />
-      </Route>
-      </div>
+      {/* <div> */}
+        <Route path="/new">
+          <Form />
+        </Route>
+      {/* </div> */}
     </div>
   );
 }

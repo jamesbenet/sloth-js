@@ -3,26 +3,8 @@
 }
 
 /* My CSS */
-.photo {
-  height: 120px;
-  width: 80px; 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-}
-
-/* My CSS */
-.nav {
-  
-  position: absolute;
-  
-  left: 100px;
-  top: 0;
-}
-
 .nav a {
-  background-color: red;
+  /* background-color: red; */
   color: rgb(29, 116, 48);
   padding: 1em 1.5em;
   text-decoration: none;
@@ -42,10 +24,38 @@
 }
 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* z-index: 1000; */
+
 }
+
+/* My CSS */
+.image-wrapper {
+  /* width: 50%;  */
+  margin: auto;
+  
+  
+  
+}
+
+.image-wrapper img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  /* display: block;
+  width: 100%;
+  max-width: 500px; actual image width
+  height: auto; /* maintain aspect ratio
+  margin: auto; /*optional centering of image*/
+  border-radius: 50%; 
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

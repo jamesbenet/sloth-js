@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Route } from "react-router-dom";
+import Product from "./components/Product.jsx"
 import Form from "./components/Form";
 import Nav from "./components/Nav";
 import { baseURL, config } from "./services";
@@ -25,12 +26,12 @@ function App() {
   console.log(products);
   return (
     <div className="App">
-     
-      <Nav></Nav>
+     <header>
+     <Nav></Nav></header>
       <Route exact path="/">
-       
+       {/* {product.fields.name} */}
         <main>{products.map((product) => (
-          <p>{product.fields.name}</p>
+          <Product product={product} setToggleFetch={setToggleFetch} />
         ))}
         </main>
       </Route>

@@ -4,7 +4,7 @@ function Nav() {
     <nav>
       <div class="box">
          <div class="image-wrapper">
-            <img src="https://i.imgur.com/N2pBvHFb.png" alt="sloth" />
+            {/* <img src="https://i.imgur.com/N2pBvHFb.png" alt="sloth" /> */}
          </div>
         <div className="nav">
           <Link to="/">Sloth JS products</Link>

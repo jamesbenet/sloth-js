@@ -55,6 +55,12 @@
   border-radius: 50%; 
 }
 
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {

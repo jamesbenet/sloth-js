@@ -7,6 +7,8 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import { baseURL, config } from "./services";
 import "./App.css";
+import "./Nav.css";
+import "./Product.css";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -23,31 +25,30 @@ function App() {
   }, [toggleFetch]);
 
   return (
-    <div className="App" className="container">
-      <header className="header"> 
+    <div className="App">
+    <div className="app-container">  
+      {/* <div className="header-container">  */}
         <Nav classname="nav" />
-      </header> 
-      {/* <div className="left-side">left</div> */}
+      {/* </div>  */}
+      
       <main className="main-body">
-
-      <div style={{ backgroundImage: `url("https://i.imgur.com/N2pBvHF.png")` }}>
-        
+      {/* <div style={{ backgroundImage: `url("https://i.imgur.com/N2pBvHF.png")` }}> */}
+          {/* HOMEPAGE */}
         <Route exact path="/">
           {products.map((product) => (
             <Product product={product} setToggleFetch={setToggleFetch} />
             ))}
         </Route>
-
+            {/* FORM PAGE */}
         <Route path="/new">
            <Form setToggleFetch={setToggleFetch}/>
         </Route>
-      </div> 
       </main>
-      
-      {/* <div className="right-side">right</div> */}
-    <div className="footer"><Footer /></div>
-  {/* end container */}
-  </div>
+
+      <div className="footer"><Footer /></div>
+      {/* end container */}
+      </div>
+    </div>
  ); 
 }
 

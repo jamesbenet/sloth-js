@@ -12,9 +12,8 @@ function Footer()
 {
   <div>
     
-    <p>Footer Content</p>
-    <p>Footer Content</p>
-    <p>Footer Content</p>
+    
+   
   </div>
   return (
   <div>

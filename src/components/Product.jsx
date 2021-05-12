@@ -7,9 +7,9 @@ function Product(props) {
     <h3>{item}</h3>
     </div>
     <div className="card-body">
-      <p className="text">Description: {description}</p>
+      <p className="description">Description: {description}</p>
     </div>
-    <h3>${price} moonunits</h3>
+    <h3 classname="price">${price}</h3>
     {/* ----end product card---- */}
     
     </div>

@@ -1,10 +1,15 @@
 function Product(props) {
   const { item, description, price } = props.product.fields;
   return (
-    <div className="products">
+    
+    <div className="products" className="card">
+      <div className="card-top">
     <h3>{item}</h3>
-    <div>Description: {description}</div>
+    </div>
+    <div className="card-body">Description: {description}</div>
     <h3>${price} moonunits</h3>
+    {/* ----end product card---- */}
+    
     </div>
 
 

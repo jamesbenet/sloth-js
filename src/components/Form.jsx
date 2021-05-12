@@ -4,9 +4,9 @@ import axios from "axios";
 import { baseURL, config } from "../services";
 
 function Form(props) {
-  const [item, setItem] = useState(" ");
-  const [description, setDescription] = useState(" ");
-  const [price, setPrice] = useState(" ");
+  const [item, setItem] = useState("");
+  const [description, setDescription] = useState("");
+  const [price, setPrice] = useState(0);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,8 +27,8 @@ function Form(props) {
 }; 
 
   return (
-
-    <form>
+    
+    <form className="product-suggestion-form" onSubmit={handleSubmit}>
       <label htmlFor="item">Product:</label>
       <input type="text" id="item" value={item} onChange={(e) => setItem(e.target.value)} />
       <label htmlFor="description">Description:</label>
@@ -37,10 +37,10 @@ function Form(props) {
        value={description} 
        onChange={(e) => setDescription(e.target.value)} />
       <label htmlFor="price">Suggested price:</label>
-      <input type="text"
+      <input type="number"
        id ="price"
        value={price} 
-       onChange={(e) => setPrice(e.target.value)} />
+       onChange={(e) => setPrice(parseInt(e.target.value))} />
       <button type="submit">submit new product</button> 
     </form>
 

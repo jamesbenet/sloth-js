@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import Product from "./components/Product"
 import Form from "./components/Form";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import { baseURL, config } from "./services";
 import "./App.css";
 
@@ -22,23 +23,33 @@ function App() {
   }, [toggleFetch]);
 
   return (
-    <div className="App">
-     
-     <Nav classname="nav" />
-      <Route exact path="/">
-        <main>
+    <div className="App" className="container">
+      <header className="header"> 
+        <Nav classname="nav" />
+      </header> 
+      {/* <div className="left-side">left</div> */}
+      <main className="main-body">
+
+      <div style={{ backgroundImage: `url("https://i.imgur.com/N2pBvHF.png")` }}>
+        
+        <Route exact path="/">
           {products.map((product) => (
-          <Product product={product} setToggleFetch={setToggleFetch} />
-          ))}
-        </main>
-      </Route>
-      {/* <div> */}
-        <Route path="/new">
-          <Form />
+            <Product product={product} setToggleFetch={setToggleFetch} />
+            ))}
         </Route>
-      {/* </div> */}
-    </div>
-  );
+
+        <Route path="/new">
+           <Form setToggleFetch={setToggleFetch}/>
+        </Route>
+      </div> 
+    </main>
+      
+      {/* <div className="right-side">right</div> */}
+    <div className="footer"><Footer /></div>
+  {/* end container */}
+  </div>
+ ); 
 }
+
 
 export default App;

@@ -1,17 +1,18 @@
 import { Link } from "react-router-dom";
 function Nav() {
   return (
+    <div className="container">
     <nav>
-      <div class="box">
-         <div class="image-wrapper">
-            {/* <img src="https://i.imgur.com/N2pBvHFb.png" alt="sloth" /> */}
-         </div>
-        <div className="nav">
-          <Link to="/">Sloth JS products</Link>
-          <Link to="/new">New Product Submission Form</Link>
+      <div class="image-holder">
+        <img src="https://i.imgur.com/N2pBvHFb.png" alt="sloth" height="100" />
         </div>
-      </div>  
-     </nav> 
+      <div className="nav-links">
+        <Link to="/">Sloth JS products</Link>
+        <Link to="/new">New Product Submission Form</Link>
+      </div>
+    </div>  
+   </nav> 
+      </div> //end container class
   )
 }
       

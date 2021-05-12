@@ -42,7 +42,7 @@ function App() {
            <Form setToggleFetch={setToggleFetch}/>
         </Route>
       </div> 
-    </main>
+      </main>
       
       {/* <div className="right-side">right</div> */}
     <div className="footer"><Footer /></div>

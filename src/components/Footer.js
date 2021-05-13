@@ -16,12 +16,13 @@ function Footer()
    
   </div>
   return (
-  <div>
-    <a href="https://www.google.com"> a link</a>
-  </div>,
-  <div>
-    <a href="https://www.google.com"> another link</a>
-  </div>
+  <ul>
+    <li><a href="https://www.google.com"> a link</a></li>
+  
+  
+    <li><a href="https://www.google.com"> another link</a></li>
+    </ul>
+  
   )
   
 }

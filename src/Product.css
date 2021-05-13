@@ -6,25 +6,40 @@
   border: 1px solid black;
   /*height: 300px;*/
   margin-top: 180px;
-  width: 300px; /*width: 180px;*/
+  width: 30%; /*width: 180px;*/
   float: left;
-  background-color: gray;
+  background-color: #e3e0cf;
   margin-left: 32px;
   border-radius: 10px; 
+  font-family: 'Alegreya', serif;
+   color: #9fa8a3;
+   text-align: center;
+ }
+
+ .price .item{
+   text-align: center;
  }
  
  .card-body {
    margin-top: 16px;
-   width: 220px; /*100px;*/
+   
+   width: 80%; /*100px;*/
    padding-right: 20px;
    margin-right: 20px;
    padding-left: 20px;
-   background-color: white;
-   font-family: 'Roboto';
+   background-color: #9fa8a3;
+   font-family: 'Lato', sans-serif;
+   color: white;
+   text-align: left;
+   /* font-family: 'Roboto'; */
+   
   }
 
-  .products {
-    text-align: center;
+  .products img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
 
  

@@ -26,9 +26,14 @@ function App() {
 
   return (
     <div className="App">
+
+
+
+
+<Nav classname="nav" />
     <div className="app-container">  
       {/* <div className="header-container">  */}
-        <Nav classname="nav" />
+       
       {/* </div>  */}
       
       <main className="main-body">

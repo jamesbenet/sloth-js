@@ -4,10 +4,8 @@
 
 .card {
   border: 1px solid black;
-  /*height: 300px;*/
   margin-top: 180px;
-  width: 30%; /*width: 180px;*/
-  float: left;
+  width: 30%;
   background-color: #e3e0cf;
   margin-left: 32px;
   border-radius: 10px; 
@@ -23,7 +21,7 @@
  .card-body {
    margin-top: 16px;
    
-   width: 80%; /*100px;*/
+   width: 80%; 
    padding-right: 20px;
    margin-right: 20px;
    padding-left: 20px;
@@ -31,7 +29,7 @@
    font-family: 'Lato', sans-serif;
    color: white;
    text-align: left;
-   /* font-family: 'Roboto'; */
+  
    
   }
 
@@ -43,6 +41,4 @@
   }
 
  
-  /* .text {
-    overflow: hidden;
-  } */
+  

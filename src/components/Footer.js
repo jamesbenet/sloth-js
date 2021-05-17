@@ -1,29 +1,17 @@
-import React from "react"
+import React from "react";
 
-// icons for social follows:
-// import {
-//   faYoutube,
-//   faFacebook,
-//   faTwitter,
-//   faInstagram
-// } from "@fortawesome/free-brands-svg-icons";
-
-function Footer() 
-{
-  <div>
-    
-    
-   
-  </div>
+function Footer() {
+  <div></div>;
   return (
-  <ul>
-    <li><a href="https://www.google.com"> a link</a></li>
-  
-  
-    <li><a href="https://www.google.com"> another link</a></li>
+    <ul>
+      <img src="https://i.imgur.com/N2pBvHFb.png" alt="sloth" height="50px" />
+      <li>
+        <a href="https://www.linkedin.com/in/james-benet-0a34399/?trk=people-guest_people_search-card">
+          {" "}
+          Linkedin
+        </a>
+      </li>
     </ul>
-  
-  )
-  
+  );
 }
 export default Footer;

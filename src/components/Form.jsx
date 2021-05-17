@@ -1,4 +1,4 @@
-//so we can make request to airtable api
+import { useHistory } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import { baseURL, config } from "../services";
@@ -7,6 +7,7 @@ function Form(props) {
   const [item, setItem] = useState("Javawuhhhh?");
   const [description, setDescription] = useState("");
   const [price, setPrice] = useState(0);
+  const history = useHistory();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,14 +17,9 @@ function Form(props) {
       price,
     };
   
-
-  //request to baseURL passing object of data, object has key 'fields' 
-  //value of all data we are adding, config adds authorization header
-  
     await axios.post(baseURL, { fields: newProduct }, config);
-  
-  //changing the value of toggleFetch to trigger useEffect
-  props.setToggleFetch((curr) => !curr);
+    props.setToggleFetch((curr) => !curr);
+    history.push("/")
 }; 
 
   return (

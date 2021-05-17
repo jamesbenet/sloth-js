@@ -4,7 +4,7 @@ function Nav() {
     <div className="nav-container">
      
      <div className="nav-left">
-       <h1>SlothJS</h1>
+       <h1>Sloth JS</h1>
        
       </div>
 
@@ -14,12 +14,14 @@ function Nav() {
         <div className="nav-links">
         
          <Link className="links" to="/">Home</Link>
-         <img src="https://i.imgur.com/N2pBvHFb.png" alt="sloth" height="50px" />
-         <Link className="links" to="/new">New Product Form</Link>
+         
+        <Link className="links" to="/new">New Product Form</Link>
+        
+        
          
         </div>
     </div>  
-   //end container class
+  
       
   )
 }

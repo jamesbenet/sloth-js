@@ -26,32 +26,23 @@ function App() {
 
   return (
     <div className="App">
-
-
-
-
-<Nav classname="nav" />
-    <div className="app-container">  
-      {/* <div className="header-container">  */}
-       
-      {/* </div>  */}
-      
-      <main className="main-body">
-      {/* <div style={{ backgroundImage: `url("https://i.imgur.com/N2pBvHF.png")` }}> */}
-          {/* HOMEPAGE */}
-        <Route exact path="/">
-          {products.map((product) => (
-            <Product product={product} setToggleFetch={setToggleFetch} />
-            ))}
-        </Route>
-            {/* FORM PAGE */}
-        <Route path="/new">
-           <Form setToggleFetch={setToggleFetch}/>
-        </Route>
-      </main>
-
-      <div className="footer"><Footer /></div>
-      {/* end container */}
+      <Nav classname="nav" />
+        <div className="app-container">  
+          
+          <main className="main-body">
+           
+            <Route exact path="/">
+             {products.map((product) => (<Product product={product} setToggleFetch={setToggleFetch} />
+              ))}           
+            </Route>
+           
+            <Route path="/new">
+              <Form setToggleFetch={setToggleFetch}/>
+          </Route>
+            
+          </main>
+          <div className="footer"><Footer /></div>
+        
       </div>
     </div>
  ); 

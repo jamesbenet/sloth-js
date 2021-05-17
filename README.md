@@ -2,7 +2,7 @@
 
 ## Sloth JS
 
-You'll get hooked... ![ a sloth, photo by Sophia Muller](./images/sophia-muller-5t9T6hQ2Cn0-unsplash.jpg)
+https://amazing-yalow-4224ef.netlify.app/
 
 ## Project Description
 
